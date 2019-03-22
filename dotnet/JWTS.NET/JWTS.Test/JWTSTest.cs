@@ -50,7 +50,7 @@ namespace JWTS.Test
             var lastState = false;
             for (var i = 0; i < Validity; i++)
             {
-                if(!Validate(tok.en, tokenOptions)) Assert.Fail("Not valid before expiration!");
+                if(!Validate(token, tokenOptions)) Assert.Fail("Not valid before expiration!");
                 else
                 {
                     lastState = true;

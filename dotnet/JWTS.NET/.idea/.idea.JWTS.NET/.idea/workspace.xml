@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef6826e-d3e2-4910-9b5a-2841f83bbc9b" name="Default Changelist" comment="" />
+    <list default="true" id="aef6826e-d3e2-4910-9b5a-2841f83bbc9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JWTS.Test/JWTSTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JWTS.Test/JWTSTest.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,25 +41,30 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JWTS.Test/JWTSTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+            <state relative-caret-position="114">
+              <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
               <folding>
-                <marker date="1553258260709" expanded="true" signature="6:187" ph="..." />
-                <marker date="1553258260709" expanded="true" signature="208:2472" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="233:2470" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="484:504" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="554:2142" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="1002:1268" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="1439:1765" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="1570:1711" ph="{...}" />
-                <marker date="1553258260709" expanded="true" signature="1791:1956" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
-                <marker date="1553258260709" expanded="true" signature="2234:2464" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="6:187" ph="..." />
+                <marker date="1553258441527" expanded="true" signature="208:2472" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="233:2470" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="484:504" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="554:2142" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="1002:1268" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="1439:1765" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="1570:1711" ph="{...}" />
+                <marker date="1553258441527" expanded="true" signature="1791:1956" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
+                <marker date="1553258441527" expanded="true" signature="2234:2464" ph="{...}" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/JWTS/Totp.cs" />
         <option value="$PROJECT_DIR$/JWTS/JWTS.cs" />
         <option value="$PROJECT_DIR$/JWTS.Test/JWTSTest.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -126,15 +135,10 @@
               <item name="JWTS.NET" type="24d0babc:SolutionExplorerModelNode" />
               <item name="JWTS" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="JWTS.NET" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="JWTS.Test" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
-        <option name="show-all-files" value="false" />
+        <option name="show-all-files" value="true" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -168,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553252810175</updated>
-      <workItem from="1553252811426" duration="4770000" />
+      <workItem from="1553252811426" duration="5069000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1553253124121</created>
@@ -188,7 +192,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4770000" />
+    <option name="totallyTimeSpent" value="5069000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,22 +304,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JWTS.Test/JWTSTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
+        <state relative-caret-position="114">
+          <caret line="51" column="13" lean-forward="true" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
           <folding>
-            <marker date="1553258260709" expanded="true" signature="6:187" ph="..." />
-            <marker date="1553258260709" expanded="true" signature="208:2472" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="233:2470" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="484:504" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="554:2142" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="1002:1268" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="1439:1765" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="1570:1711" ph="{...}" />
-            <marker date="1553258260709" expanded="true" signature="1791:1956" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
-            <marker date="1553258260709" expanded="true" signature="2234:2464" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="6:187" ph="..." />
+            <marker date="1553258441527" expanded="true" signature="208:2472" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="233:2470" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="484:504" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="554:2142" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="1002:1268" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="1439:1765" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="1570:1711" ph="{...}" />
+            <marker date="1553258441527" expanded="true" signature="1791:1956" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
+            <marker date="1553258441527" expanded="true" signature="2234:2464" ph="{...}" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
