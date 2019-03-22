@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aef6826e-d3e2-4910-9b5a-2841f83bbc9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/JWTS.NET.sln" beforeDir="false" afterPath="$PROJECT_DIR$/JWTS.NET.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTS/JWTS.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JWTS/JWTS.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JWTS/Totp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/JWTS/Totp.cs" afterDir="false" />
-    </list>
+    <list default="true" id="aef6826e-d3e2-4910-9b5a-2841f83bbc9b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +41,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JWTS.Test/JWTSTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+            <state relative-caret-position="133">
+              <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
               <folding>
-                <marker date="1553258038211" expanded="true" signature="6:187" ph="..." />
-                <marker date="1553258038211" expanded="true" signature="208:2398" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="233:2396" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="484:504" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="554:2068" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="1002:1268" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="1365:1691" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="1496:1637" ph="{...}" />
-                <marker date="1553258038211" expanded="true" signature="1717:1882" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
-                <marker date="1553258038211" expanded="true" signature="2160:2390" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="6:187" ph="..." />
+                <marker date="1553258260709" expanded="true" signature="208:2472" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="233:2470" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="484:504" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="554:2142" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="1002:1268" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="1439:1765" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="1570:1711" ph="{...}" />
+                <marker date="1553258260709" expanded="true" signature="1791:1956" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
+                <marker date="1553258260709" expanded="true" signature="2234:2464" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -172,7 +168,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553252810175</updated>
-      <workItem from="1553252811426" duration="4526000" />
+      <workItem from="1553252811426" duration="4770000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1553253124121</created>
@@ -181,11 +177,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553253124121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="comment added">
+      <created>1553258267254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1553258267254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4526000" />
+    <option name="totallyTimeSpent" value="4770000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -197,7 +200,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="0" width="1920" height="1080" extended-state="7" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -235,7 +239,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="comment added" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -295,19 +300,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JWTS.Test/JWTSTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="43" lean-forward="true" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="43" />
+        <state relative-caret-position="133">
+          <caret line="52" column="32" lean-forward="true" selection-start-line="52" selection-start-column="32" selection-end-line="52" selection-end-column="32" />
           <folding>
-            <marker date="1553258038211" expanded="true" signature="6:187" ph="..." />
-            <marker date="1553258038211" expanded="true" signature="208:2398" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="233:2396" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="484:504" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="554:2068" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="1002:1268" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="1365:1691" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="1496:1637" ph="{...}" />
-            <marker date="1553258038211" expanded="true" signature="1717:1882" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
-            <marker date="1553258038211" expanded="true" signature="2160:2390" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="6:187" ph="..." />
+            <marker date="1553258260709" expanded="true" signature="208:2472" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="233:2470" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="484:504" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="554:2142" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="1002:1268" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="1439:1765" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="1570:1711" ph="{...}" />
+            <marker date="1553258260709" expanded="true" signature="1791:1956" ph="/* Due to TOTP algorithm working method after the expiration time of the token ... */" />
+            <marker date="1553258260709" expanded="true" signature="2234:2464" ph="{...}" />
           </folding>
         </state>
       </provider>
