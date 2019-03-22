@@ -46,7 +46,7 @@ namespace JWTS.Test
                 ValidAudience = Audience,
             };
 
-            
+            //the algorithm will guaranty token's validity before validation expires  
             var lastState = false;
             for (var i = 0; i < Validity; i++)
             {
