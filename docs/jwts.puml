@@ -1,0 +1,33 @@
+@startuml
+
+title Json Web Token Secure(JWTS)'s workflow 
+actor user as usr
+participant login_service as srv
+participant service_A as service
+participant TOTP as otp
+database db #green
+
+== Issuance of JWTS ==
+usr -> srv : login(credentials)
+srv -> db : get user credentials
+
+alt if user's credentials are correct 
+    note over of srv:<b>JWT properties</b>\n-Issuer\n-audience\n-claims\n-expires ex: 1 minute\n<b>-signingCredentials</b>\n---JWT_Master_Key\n---Security Algorithm
+    srv -> otp : get TOTP_CODE and use it as JWT_MASTER_KEY
+    note over of otp: The TOTP code will be generated\nwith a TOTP_Master_Key 
+    note over of otp: The TOTP code is being generated\nfor this moment of time and it's\nvalid for the next 30 seconds
+    srv -> usr : generated JWT
+end
+== Usage of JWTS ==
+usr -> service: service_A(token)
+note over of service: being part of same application\nservice_A knows the duration of\nthe <b>token's validity</b> which is 1 minute
+service -> otp : get all the valid TOTP code\nfrom <b>1 minute ago till 1 minute later</b>
+loop try decoding token
+    note right of service : decode the token\nwith the same\n<b>JWT properties</b>\nand a TOTP from\nlist of TOTPs
+        note right of service : if the token issued in the\nlast minute, so one the\ncodes in the TOTPs list will\nbe valid
+    alt if token is valid & user's claim is valid
+       service -> usr : response
+    end
+end
+
+@enduml

@@ -1,0 +1,23 @@
+@startuml
+
+title Json Web Token(JWT) workflow 
+actor user as usr
+participant login_service as srv
+participant service_A as service
+database db #green
+
+== Issuance of JWT ==
+usr -> srv : login(credentials)
+srv -> db : get user credentials
+note over of srv:<b>JWT properties</b>\n-Issuer\n-audience\n-claims\n-expires\n<b>-signingCredentials</b>\n---Master Key\n---Security Algorithm
+alt if user's credentials are correct 
+    srv -> usr : generated JWT
+end
+== Usage of JWT ==
+usr -> service: service_A(token) 
+note right of service : decode the token\nwith the same\n<b>JWT properties</b>
+alt if token is valid & user's claim is valid
+   service -> usr : response
+end
+
+@enduml
