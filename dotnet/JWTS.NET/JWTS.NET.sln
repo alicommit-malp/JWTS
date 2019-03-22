@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTS", "JWTS\JWTS.csproj", "{5F197309-7B44-4852-A598-5FD5860CD03C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWTS.Test", "JWTS.Test\JWTS.Test.csproj", "{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{5F197309-7B44-4852-A598-5FD5860CD03C}.Release|x64.Build.0 = Release|Any CPU
 		{5F197309-7B44-4852-A598-5FD5860CD03C}.Release|x86.ActiveCfg = Release|Any CPU
 		{5F197309-7B44-4852-A598-5FD5860CD03C}.Release|x86.Build.0 = Release|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Debug|x64.Build.0 = Debug|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Debug|x86.Build.0 = Debug|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Release|x64.ActiveCfg = Release|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Release|x64.Build.0 = Release|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Release|x86.ActiveCfg = Release|Any CPU
+		{5A91A8CB-9790-4772-8A3C-E40DC87F5E17}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

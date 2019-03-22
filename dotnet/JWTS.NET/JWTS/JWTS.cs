@@ -27,7 +27,6 @@ namespace JWTS
         {
             //to satisfy the the length of the jwt secret   
             var jwtKey = $"{otpKey}{Convert.ToString(new Totp().Generate(otpKey))}";
-            Console.WriteLine(jwtKey);
             var secretKey =
                 new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);

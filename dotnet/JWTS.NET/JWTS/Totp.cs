@@ -10,7 +10,7 @@ namespace JWTS
     ///    -generate time-based one time password
     ///    -generate time-based one time password for range of dates 
     /// </summary>
-    public class Totp
+    internal class Totp
     {
         private readonly DateTime _unixEpoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 

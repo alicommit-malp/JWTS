@@ -1,0 +1,9 @@
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/bin/Debug/netstandard2.0/JWTS.deps.json
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/bin/Debug/netstandard2.0/JWTS.dll
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/bin/Debug/netstandard2.0/JWTS.pdb
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/obj/Debug/netstandard2.0/JWTS.csprojAssemblyReference.cache
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/obj/Debug/netstandard2.0/JWTS.csproj.CoreCompileInputs.cache
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/obj/Debug/netstandard2.0/JWTS.AssemblyInfoInputs.cache
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/obj/Debug/netstandard2.0/JWTS.AssemblyInfo.cs
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/obj/Debug/netstandard2.0/JWTS.dll
+/home/king/RiderProjects/JWTS/dotnet/JWTS.NET/JWTS/obj/Debug/netstandard2.0/JWTS.pdb
