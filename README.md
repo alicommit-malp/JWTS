@@ -242,7 +242,7 @@ your application is not aware of it ? JWTS is an algorithm which by
 combining TOTP with JWT make the ultimate security of a JWT possible.
 
 In a nutshell JWTS works as follows
-[](https://cdn-images-1.medium.com/max/800/1*bUbrfNq8iyB3t7A4TcUcKw.png)
+![](https://cdn-images-1.medium.com/max/800/1*bUbrfNq8iyB3t7A4TcUcKw.png)
 
 As it can be seen the JWTS is a combination of JWT and 
 “Time-Based One Time Password” the idea behind it to create a 
@@ -257,7 +257,7 @@ The example below illustrates a scenario which the client will
 try to obtain two JWT from the server in two different moments of 
 time for the same user, the JWT is carrying the same data.
 
-[](https://cdn-images-1.medium.com/max/800/1*vQwYBF5SZBjCrQA4apu-dw.png)
+![](https://cdn-images-1.medium.com/max/800/1*vQwYBF5SZBjCrQA4apu-dw.png)
 
 Retrieving the JWT seams pretty straight forward, the algorithm 
 simply uses the TOTP algorithm to generate a time-based code and 
@@ -267,7 +267,7 @@ KEY which it has been signed with is unknown? and the answer
 is : we will brute force it :)
 
 # Solution
-[](https://cdn-images-1.medium.com/max/800/1*6fRdEWDZVF5iqLm0k9dvxQ.png)
+![](https://cdn-images-1.medium.com/max/800/1*6fRdEWDZVF5iqLm0k9dvxQ.png)
 
 The token has been signed by the TOTP key, which is changing every 
 30 seconds, therefore on validating it the TOTP algorithm will 
