@@ -145,6 +145,7 @@ Learn more about them, how they work, when and why you should use
 JWTs.</p></blockquote>
 
 Below a normal implementation of JWT can be seen
+
 ![](https://cdn-images-1.medium.com/max/800/1*pgxACJ0eqH7Bdqwhsq8B2Q.png)
 
 And the code in C# for generating a JWT goes like this
@@ -308,6 +309,6 @@ use the JWTS algorithm, furthermore if you got interested you can
 assist me in implementing the JWTS for other platforms :)
 
 you can find the C# implementation of JWTS 
-[here][https://github.com/AliTabryzy/JWTS/blob/master/dotnet/JWTS.NET/JWTS/JWTS.cs]
+[here](https://github.com/AliTabryzy/JWTS/blob/master/dotnet/JWTS.NET/JWTS/JWTS.cs)
 
 Happy coding :)
