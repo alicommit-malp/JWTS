@@ -1,5 +1,10 @@
-# Securing JWT by TOTP, meet the new JWTS
-
+---
+title: Securing JWT by TOTP, meet the new JWTS
+published: true
+description: A brand new approach regarding the usage of JWT, which is the combination of the two very famous security mechanisms JWT and TOTP for the first time in their digital lives.
+tags: JWTS,TOTP,OTP,Security
+cover_image: https://thepracticaldev.s3.amazonaws.com/i/3am4w0pb4hqzq539a0s2.jpeg
+---
 If you have landed here, so you are already interested in taking your application’s security to its next level and most probably you are already a loyal consumer of the “Json Web Token” as known as JWT. This article will introduce you to a brand new approach regarding the usage of JWT, which is the combination of the two very famous security mechanisms JWT and TOTP for the first time in their digital lives.
 
 # Issue
